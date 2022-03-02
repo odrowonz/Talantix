@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Items" representedClassName="Items" syncable="YES" codeGenerationType="class">
+        <attribute name="bigImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="downloadDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="exif" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="secret" optional="YES" attributeType="String"/>
+        <attribute name="smallImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="urlBig" optional="YES" attributeType="String"/>
+        <attribute name="urlSmall" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Status" representedClassName="Status" syncable="YES" codeGenerationType="class">
+        <attribute name="currentPage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="perPage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalPagesCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Status" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Items" positionX="-54" positionY="9" width="128" height="149"/>
+    </elements>
+</model>
